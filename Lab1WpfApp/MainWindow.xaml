@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab1WpfApp"
         mc:Ignorable="d"
-        Title="Калькулятор" Height="400" Width="250">
+        Title="Калькулятор" Height="400" Width="255">
 
-    <Grid Margin="0,0,0,0" RenderTransformOrigin="0.504,0.526">
+    <Grid Margin="0,0,0,0" RenderTransformOrigin="0.504,0.526" Height="370" VerticalAlignment="Bottom">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="Blue" Offset="0"/>
@@ -15,9 +15,9 @@
             </LinearGradientBrush>
         </Grid.Background>
 
-        <Button Content="1" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Width="50" Height="60" RenderTransformOrigin="-1.163,0.489"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top" Width="50" Height="60" />
         <Button Content="4" HorizontalAlignment="Left" Margin="10,157,0,0" VerticalAlignment="Top" Width="50" Height="60"/>
-        <Button Content="7" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top" Width="50" Height="60" RenderTransformOrigin="0.303,0.519"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top" Width="50" Height="60" />
         <Button Content="0" HorizontalAlignment="Left" Margin="10,287,0,0" VerticalAlignment="Top" Width="50" Height="60"/>
         <Button Content="2" HorizontalAlignment="Left" Margin="65,92,0,0" VerticalAlignment="Top" Width="50" Height="60"/>
         <Button Content="5" HorizontalAlignment="Left" Margin="65,157,0,0" VerticalAlignment="Top" Width="50" Height="60"/>
